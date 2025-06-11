@@ -32,4 +32,8 @@ class Lightning {
     func anotherFunc() {
         // Do something
     }
+    
+    func anotherFunc2() {
+        // Do something
+    }
 }
