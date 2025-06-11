@@ -9,4 +9,7 @@ class Lightning {
     let color6 = Color.pink
     let color7 = Color.green
 
+    let color8 = Color.gray
+    let color9 = Color.black
+    let color10 = Color.white
 }
