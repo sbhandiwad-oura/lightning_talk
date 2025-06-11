@@ -24,4 +24,8 @@ class Lightning {
     func makeAllColors() -> [Color] {
         return [color1, color2, color3, color4, color5, color6, color7, color8, color9, color10]
     }
+    
+    func shuffleAllColors() -> [Color] {
+        return makeAllColors().shuffled()
+    }
 }
