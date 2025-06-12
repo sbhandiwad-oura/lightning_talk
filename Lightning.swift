@@ -29,6 +29,12 @@ class Lightning {
         return makeAllColors().shuffled()
     }
     
+    func chooseRandomColor() -> Color {
+        let allColors = makeAllColors()
+        let randomInt = Int.random(in: 0..<allColors.count)
+        return allColors[randomInt]
+    }
+    
     func anotherFunc() {
         // Do something
     }
