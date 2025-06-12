@@ -28,20 +28,4 @@ class Lightning {
     func shuffleAllColors() -> [Color] {
         return makeAllColors().shuffled()
     }
-    
-    func anotherFunc() {
-        // Do something
-    }
-    
-    func anotherFunc2() {
-        // Do something
-    }
-    
-    func anotherFunc3() {
-        // Do something
-    }
-    
-    func anotherFunc4() {
-        // Do something
-    }
 }
